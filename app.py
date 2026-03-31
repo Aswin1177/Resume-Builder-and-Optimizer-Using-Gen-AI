@@ -1,6 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyBp4rq_wPx4KiuBEN4sK5z7_bv-tMd2tlc")
+genai.configure(api_key="Google_API_Key")
 st.set_page_config(page_title="AI Resume Builder",layout="wide")
 st.subheader("Resume Generator")
 col1,col2,col3,col4,col5=st.columns(5)
